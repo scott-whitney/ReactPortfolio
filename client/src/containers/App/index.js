@@ -18,7 +18,7 @@ import { connect } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import io from 'socket.io-client';
-
+import "./background.css";
 
 
 import Navbar from './../../components/Navbar';
@@ -27,6 +27,13 @@ import Navbar from './../../components/Navbar';
 class App extends Component {
   render () {
     return (
+      <div>
+        <div className='background-container'>
+          <img className='background-image' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt=""/>
+          <div class="stars"></div>
+          <div className="twinkling"></div>
+          <div className="clouds"></div>
+        </div>
       <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>
         <Grid.Column style={{ maxWidth: 700 }}>
           <Navbar isLoggedIn={this.props.authenticated}/>
@@ -34,9 +41,10 @@ class App extends Component {
           <Route exact path='/portfolio' component={Portfolio}/>
           <Route exact path='/' component={Home}/>
           <Route exact path='/Contact' component={Contacts}/>
-          
         </Grid.Column>
       </Grid>
+      </div>
+
     );
   }
 }
