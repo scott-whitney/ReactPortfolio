@@ -12,6 +12,7 @@ import About from '../About';
 import Portfolio from '../Portfolio';
 import Home from '../ScrollPage';
 import Contacts from '../Contact';
+import Navigation from './../../components/TestThreeNavBar'
 
 import { connect } from 'react-redux';
 
@@ -30,13 +31,13 @@ class App extends Component {
       <div>
         <div className='background-container'>
           <img className='background-image' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt=""/>
-          <div class="stars"></div>
+          <div className="stars"></div>
           <div className="twinkling"></div>
           <div className="clouds"></div>
         </div>
+        <Navigation/>
       <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>
         <Grid.Column style={{ maxWidth: 700 }}>
-          <Navbar isLoggedIn={this.props.authenticated}/>
           <Route exact path='/About' component={About}/>
           <Route exact path='/portfolio' component={Portfolio}/>
           <Route exact path='/' component={Home}/>
