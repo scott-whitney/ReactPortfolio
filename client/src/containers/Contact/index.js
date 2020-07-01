@@ -27,8 +27,8 @@ class Contact extends Component {
       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
       <Card.Body>
         <Card.Title>Contact Me</Card.Title>
-        <a href='https://www.linkedin.com/in/scott-whitney-49b8a6181/'><Icon name='linkedin' size='big'/></a>
-        <a href='https://github.com/scott-whitney'><Icon name='github' size='big'/></a>   
+        <a target="_blank" href='https://www.linkedin.com/in/scott-whitney-49b8a6181/'><Icon name='linkedin' size='big'/></a>
+        <a target="_blank" href='https://github.com/scott-whitney'><Icon name='github' size='big'/></a>   
       </Card.Body>
     </Card>
     );

@@ -23,9 +23,9 @@ class Home extends Component {
         <Container>
           <Row>
             <Col>
-              <Container>
+              <Container fluid="lg">
                 <Row>
-                  <Col>
+                  <Col lg={6} md={12}>
                     <Card style={{ width: "18rem" }} >
                       <Card.Img
                         variant="top"
@@ -40,12 +40,14 @@ class Home extends Component {
                         <Button
                           href="https://github.com/jngo2013/Planet"
                           variant="success"
+                          target="_blank"
                         >
                           Github
                         </Button>
                         <Button
                           href="https://blooming-atoll-78659.herokuapp.com/"
                           variant="primary"
+                          target="_blank"
                         >
                           Project
                         </Button>
@@ -53,7 +55,7 @@ class Home extends Component {
                     </Card>
                   </Col>
 
-                  <Col>
+                  <Col lg={6} md={12}>
                     <Card style={{ width: "18rem" }}>
                       <Card.Img
                         variant="top"
@@ -65,12 +67,14 @@ class Home extends Component {
                         <Button
                           href="https://github.com/Kerry-Jr/Project02"
                           variant="success"
+                          target="_blank"
                         >
                           Github
                         </Button>
                         <Button
                           href="https://project02blog.herokuapp.com/"
                           variant="primary"
+                          target="_blank"
                         >
                           Project
                         </Button>
