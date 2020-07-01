@@ -16,4 +16,5 @@
   float: none;
   margin-bottom: 10px;
   animation: .3s ease-in-out both fade-in;
+  background-color: grey !important;
 }
