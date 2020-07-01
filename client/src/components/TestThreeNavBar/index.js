@@ -30,7 +30,7 @@ export default class Navigation extends Component {
 
       <li className="loud"><CustomLink tag='div' to='/Contact' className='NavButton'>Contact</CustomLink></li>
       <li className="loud"><CustomLink tag='div' to='/About' className='NavButton'>About</CustomLink></li>
-      <li className="loud"><CustomLink tag='div' to='/' className='NavButton'>Portfolio</CustomLink></li>
+      <li className="loud"><CustomLink tag='div' to='/Portfolio' className='NavButton'>Portfolio</CustomLink></li>
 
 		  </ul>
 	    </header>

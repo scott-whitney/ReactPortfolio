@@ -3,7 +3,7 @@ import { Field, reduxForm } from "redux-form";
 
 import { Button, Card, Container, Row, Col } from "react-bootstrap";
 import "./style.css";
-
+import Navigation from './../../components/TestThreeNavBar'
 import { email, length, required } from "redux-form-validators";
 import axios from "axios";
 
@@ -13,7 +13,7 @@ import CardCharacter from "../CardCharacter";
 // consider using card Columns from bootstrap react
 class Home extends Component {
   componentDidMount() {
-    
+
   }
 
 
@@ -34,7 +34,7 @@ class Home extends Component {
                       <Card.Body>
                         <Card.Title>Planet</Card.Title>
                         <Card.Text>
-                          Event planning the everday events. Now your friends
+                          Event planning for the everday events. Now your friends
                           can't flake.
                         </Card.Text>
                         <Button

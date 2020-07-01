@@ -6,7 +6,7 @@ import axios from 'axios';
 
 import { Button, Card, Container, Row, Col, Form, } from "react-bootstrap";
 import { Icon } from 'semantic-ui-react'
-
+import Navigation from './../../components/TestThreeNavBar'
 import { AUTH_USER, AUTH_USER_ERROR } from '../../actions/types';
 
 class Contact extends Component {
@@ -19,6 +19,10 @@ class Contact extends Component {
   render() {
 
     return (
+    
+
+      
+
       <Card style={{ width: '18rem' }}>
       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
       <Card.Body>

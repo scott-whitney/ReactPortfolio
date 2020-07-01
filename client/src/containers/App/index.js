@@ -11,6 +11,7 @@ import Chat from '../chatComponent';
 import About from '../About';
 import Portfolio from '../Portfolio';
 import Home from '../ScrollPage';
+import Landing from '../Landing';
 import Contacts from '../Contact';
 import Navigation from './../../components/TestThreeNavBar'
 
@@ -26,6 +27,10 @@ import Navbar from './../../components/Navbar';
 
 
 class App extends Component {
+ 
+  
+
+
   render () {
     return (
       <div>
@@ -35,12 +40,13 @@ class App extends Component {
           <div className="twinkling"></div>
           <div className="clouds"></div>
         </div>
-        <Navigation/>
+      <Navigation/>
+        
       <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>
         <Grid.Column style={{ maxWidth: 700 }}>
           <Route exact path='/About' component={About}/>
-          <Route exact path='/portfolio' component={Portfolio}/>
-          <Route exact path='/' component={Home}/>
+          <Route exact path='/Portfolio' component={Home}/>
+          <Route exact path='/' component={Landing}/>
           <Route exact path='/Contact' component={Contacts}/>
         </Grid.Column>
       </Grid>
