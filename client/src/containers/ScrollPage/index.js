@@ -12,6 +12,11 @@ import { AUTH_USER, AUTH_USER_ERROR } from "../../actions/types";
 import CardCharacter from "../CardCharacter";
 // consider using card Columns from bootstrap react
 class Home extends Component {
+  componentDidMount() {
+    
+  }
+
+
   render() {
     return (
       <div>
