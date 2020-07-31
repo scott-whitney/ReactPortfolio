@@ -45,7 +45,7 @@ class Home extends Component {
                           Github
                         </Button>
                         <Button
-                          href="https://blooming-atoll-78659.herokuapp.com/"
+                          href="https://personal-planet.herokuapp.com/"
                           variant="primary"
                           target="_blank"
                         >
